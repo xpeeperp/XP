@@ -143,7 +143,7 @@ if __name__ == '__main__':
     else:
         print 'Error input!'
         sys.exit(-1)
-
+DDDDDDDDDDDDDDDDDDDDDDDDDDD
     '''配置文件格式
     #{'name':'server1','hostaddr':'202.101.231.234','username':'testpython','password':'test123@321','port':21,'remotedir':'.','localdir':'E:/temp/12/ftp/1/'}
     #{'name':'server2','hostaddr':'202.101.231.234','username':'testpython2','password':'test123@321','port':21,'remotedir':'.','localdir':'E:/temp/12/ftp/2/'}
