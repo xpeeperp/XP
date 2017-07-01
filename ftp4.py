@@ -30,7 +30,7 @@ class FTPSync(object):
         except Exception:
             print u'连接或登录失败'
         try:
-            #self.ftp.cwd('/')  # 远端FTP目录
+            #self.ftp.cwd('/')  # 远端FTP目录在
             ftp.cwd(self.remotedir)
             if not os.path.isdir(self.rootdir_local):
                 os.makedirs(self.rootdir_local)
